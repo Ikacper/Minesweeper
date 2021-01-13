@@ -1,0 +1,54 @@
+.revealedCell{
+    padding: 0.2rem;
+    height: 1.3rem;
+    width: 1.3rem;
+    color: black;
+    font-weight: 700;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    align-items: center;
+    margin: 0.1rem;
+    background-color: rgb(83, 206, 255);
+}
+.revealedCell:hover {
+    cursor: pointer;
+}
+
+.hiddenCell {
+    background-color: white;
+    padding: 0.2rem;
+    height: 1.3rem;
+    width: 1.3rem;
+    border-radius: 5px;
+    margin: 0.1rem;
+}
+
+.hiddenCell:hover {
+    cursor: pointer;
+}
+
+.value1 {
+    color: #0b0ece;
+}
+
+.value2 {
+    color: #137c18;
+}
+
+.value3 {
+    color: #ff1c1c;
+}
+
+.value4 {
+    color: #000266;
+}
+
+.value5 {
+    color: #7c1b1b;
+}
+
+.valueBomb {
+    background: url(../../assets/bomb.svg) no-repeat center;
+    background-size: 20px;
+    background-color: gold;
+}

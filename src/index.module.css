@@ -1,0 +1,120 @@
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 86.8vh;
+}
+
+.game {
+  border-radius: 15px;
+  background-color: rgba(9, 88, 141, 0.979);
+  color: white;
+  margin: 0 auto;
+  min-width: 260px;
+  min-height: 380px;
+  padding: 1rem;
+  display: inline-block;
+}
+
+.console{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.consoleItem{
+  
+  flex-basis: 100%;   
+  
+}
+
+.consoleItem:not(:first-child) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.label{
+display: block;
+color: white;
+padding-top: 0.3rem;
+padding-left: 0.4rem;
+}
+
+.button{
+  text-decoration: none;
+  font-size: 1.3rem;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid black;
+  color: black;
+  padding: 0.2rem 0.4rem;
+  width: 3rem;
+  height: 3rem;
+  background: url(./assets/replay.svg) no-repeat center;
+
+}
+
+.button:active {
+  width: 2.7rem;
+  height: 2.7rem;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+@keyframes button {
+  to {
+    transform: scale(1.1);
+  }
+}
+.button:hover, .button:focus, .button:active {
+  animation-name: button;
+  animation-duration: 0.4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.button:focus{
+outline: none;
+}
+
+.buttonText{
+  color: black
+}
+
+.slider{
+  width: 5rem;
+}
+
+.slider:hover{
+  cursor: pointer;
+}
+
+.slider:focus{
+  outline: none;
+}
+
+.rangeText{
+  display: inline-block;
+  padding-left: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background-color: black;
+  padding: 0.4rem;
+  color: white;
+}
+
+.spanName{
+  font-weight: 600;
+}

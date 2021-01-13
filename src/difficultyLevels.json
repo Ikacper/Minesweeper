@@ -1,0 +1,17 @@
+[
+    {
+    "index": 0,
+    "difficulty": "easy",
+    "value": 20
+    },
+    {
+    "index": 1,
+    "difficulty": "normal",
+    "value": 30
+    },
+    {
+    "index": 2,
+    "difficulty": "hard",
+    "value": 40
+    }
+]

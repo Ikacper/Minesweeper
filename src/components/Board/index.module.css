@@ -1,0 +1,19 @@
+.board {
+    display: grid;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+.gameOverText {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 0.4rem;
+    color: gold;
+}
