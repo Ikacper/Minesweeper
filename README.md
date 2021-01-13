@@ -1,3 +1,6 @@
+#presentation of how the game works
+![minesweeper](https://github.com/Ikacper/minesweeper/blob/master/minesweeper.gif)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
