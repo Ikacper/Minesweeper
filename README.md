@@ -1,4 +1,4 @@
-#presentation of how the game works
+# presentation of how the game works
 ![minesweeper](https://github.com/Ikacper/minesweeper/blob/master/minesweeper.gif)
 
 # Getting Started with Create React App
