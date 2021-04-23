@@ -22,12 +22,19 @@ const Board = ({ difficulty, mapSize, buttonText, setButtonText}) => {
         setMineLocations(newBoard.mineLocation);
     },[difficulty, mapSize, setGrid])
 
-    const updateFlag = (e,x,y) => {
+    const updateFlag = (e,x,y,flag) => {
         e.preventDefault();
+
         let newGrid = JSON.parse(JSON.stringify(grid));
-        newGrid[x][y].flagged = true;
-        console.log(newGrid[x][y]);
-        setGrid(newGrid);
+        if(flag){
+            newGrid[x][y].flagged = true;
+            setGrid(newGrid);
+        }
+        else {
+            newGrid[x][y].flagged = false;
+            setGrid(newGrid);
+        }
+        
     }
 
     const revealCell = (x,y) => {
